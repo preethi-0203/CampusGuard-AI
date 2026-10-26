@@ -1,0 +1,41 @@
+venv/
+__pycache__/
+*.pyc
+
+chroma_db/
+
+*.pt
+*.task
+
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+.env
+
+frontend/node_modules/
+frontend/dist/
+frontend-new/node_modules/
+frontend-new/dist/
+
+*.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large datasets and archives
+data/fall/
+data/fight_dataset/
+data/weapon_dataset/
+*.zip
+
+# Generated output and local uploads
+runs/
+data/uploads/
+backups/

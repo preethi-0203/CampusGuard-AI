@@ -1,0 +1,14 @@
+1. Emergency SOS
+Students can use the SOS button on the Student Dashboard to report emergencies. Press the SOS button when immediate assistance is needed. Security personnel should respond promptly to SOS alerts.
+
+2. Incident Reporting
+Students can report falls, medical emergencies, suspicious activities, and other safety incidents through CampusGuard AI. If a student notices suspicious activity, they should report it through the Incident Reporting feature and provide relevant details. Students should avoid confronting or approaching a suspicious person.
+
+3. Restricted Areas
+Students should not enter restricted areas without authorization. Security personnel should investigate unauthorized entry.
+
+4. After-Hours Safety
+Students should follow campus timings. Security personnel should monitor unusual activity after hours.
+
+5. Emergency Response
+Security personnel should acknowledge alerts and take appropriate action. Critical incidents should be escalated immediately.

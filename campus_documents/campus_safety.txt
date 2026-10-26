@@ -1,0 +1,17 @@
+1. Emergency SOS
+Students can use the Emergency SOS feature from the CampusGuard AI dashboard when immediate assistance is required. Security personnel should acknowledge active SOS alerts and respond according to campus emergency procedures.
+
+2. Incident Reporting
+Students can report suspicious activity, fighting, medical emergencies, fire or smoke, theft, harassment, restricted-area activity, and other safety incidents. Reports should include the incident type, location, and a clear description.
+
+3. Restricted Areas
+Entry into a restricted area should be treated as a campus safety event. Security personnel should verify the alert, assess the situation, and take appropriate action according to campus policy.
+
+4. After-Hours Activity
+CampusGuard AI can identify activity outside configured campus operating hours. Security personnel should verify the activity and respond when it appears unauthorized or unsafe.
+
+5. Emergency Alerts
+Security and administrators can acknowledge active alerts and resolve them after the situation has been handled. High-severity alerts should receive priority attention.
+
+6. CCTV Analysis
+Security and administrators can upload recorded CCTV images or videos for AI-assisted analysis. The system can evaluate supported safety signals such as falls, possible fighting, weapons, restricted-area entry, after-hours activity, and loitering.

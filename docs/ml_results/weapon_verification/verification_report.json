@@ -1,0 +1,632 @@
+{
+  "model_file": "weapon_detection_trained.pt",
+  "model_sha256": "c78b602ff5c0a1a4c90c2e3853e14f32553e87e860d3878ffe6ed26dbb0ee424",
+  "model_size_bytes": 5450394,
+  "base_model_preserved": true,
+  "best_pt_sha256": "07241a8fc57d0f3fd29231dd72b9f452375745290b2185440de0165590997cb5",
+  "class_mapping": {
+    "0": "gun",
+    "1": "knife"
+  },
+  "class_mapping_valid": true,
+  "metrics": {
+    "mAP50": 0.9627540106951871,
+    "mAP50_95": 0.5935074357015533,
+    "precision": 0.8725307320790064,
+    "recall": 0.9545454545454546,
+    "class_metrics": {
+      "gun": {
+        "mAP50": 0.9305080213903743,
+        "mAP50-95": 0.6147053475935829
+      },
+      "knife": {
+        "mAP50": 0.995,
+        "mAP50-95": 0.5723095238095238
+      }
+    }
+  },
+  "threshold_evaluation": {
+    "0.25": {
+      "detected": 20,
+      "matches": 19,
+      "match_rate": 0.95
+    },
+    "0.5": {
+      "detected": 15,
+      "matches": 15,
+      "match_rate": 0.75
+    },
+    "0.75": {
+      "detected": 3,
+      "matches": 3,
+      "match_rate": 0.15
+    }
+  },
+  "image_predictions": [
+    {
+      "image": "gun_0031.jpg",
+      "ground_truth_classes": [
+        "gun",
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 2,
+      "top_class": "gun",
+      "top_confidence": 0.765,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.765,
+          "box_xyxy": [
+            108.6,
+            125.1,
+            161.8,
+            205.7
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.2822,
+          "box_xyxy": [
+            88.1,
+            124.9,
+            114.0,
+            203.7
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0031.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": true
+    },
+    {
+      "image": "gun_0032.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 1,
+      "top_class": "gun",
+      "top_confidence": 0.7569,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.7569,
+          "box_xyxy": [
+            94.1,
+            17.6,
+            173.9,
+            109.1
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0032.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": true
+    },
+    {
+      "image": "gun_0033.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 2,
+      "top_class": "knife",
+      "top_confidence": 0.3312,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.3312,
+          "box_xyxy": [
+            70.9,
+            114.4,
+            99.3,
+            184.8
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.263,
+          "box_xyxy": [
+            80.1,
+            126.6,
+            99.3,
+            184.3
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0033.jpg",
+      "match_at_0_25": false,
+      "match_at_0_50": false,
+      "match_at_0_75": false
+    },
+    {
+      "image": "gun_0034.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 1,
+      "top_class": "gun",
+      "top_confidence": 0.5316,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.5316,
+          "box_xyxy": [
+            125.0,
+            53.8,
+            174.3,
+            93.3
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0034.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "gun_0035.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 1,
+      "top_class": "gun",
+      "top_confidence": 0.3398,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.3398,
+          "box_xyxy": [
+            24.2,
+            50.2,
+            164.7,
+            161.7
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0035.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": false,
+      "match_at_0_75": false
+    },
+    {
+      "image": "gun_0036.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 1,
+      "top_class": "gun",
+      "top_confidence": 0.555,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.555,
+          "box_xyxy": [
+            111.2,
+            79.8,
+            195.3,
+            130.8
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0036.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "gun_0037.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 1,
+      "top_class": "gun",
+      "top_confidence": 0.7597,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.7597,
+          "box_xyxy": [
+            25.5,
+            41.4,
+            65.8,
+            97.3
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0037.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": true
+    },
+    {
+      "image": "gun_0038.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 2,
+      "top_class": "gun",
+      "top_confidence": 0.413,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.413,
+          "box_xyxy": [
+            128.0,
+            75.8,
+            181.6,
+            121.5
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.2993,
+          "box_xyxy": [
+            138.8,
+            76.5,
+            181.4,
+            109.9
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0038.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": false,
+      "match_at_0_75": false
+    },
+    {
+      "image": "gun_0039.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 2,
+      "top_class": "gun",
+      "top_confidence": 0.6477,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.6477,
+          "box_xyxy": [
+            105.7,
+            113.2,
+            165.0,
+            159.6
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.3245,
+          "box_xyxy": [
+            106.3,
+            113.2,
+            165.8,
+            146.2
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0039.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "gun_0040.jpg",
+      "ground_truth_classes": [
+        "gun"
+      ],
+      "primary_ground_truth": "gun",
+      "detected_count": 1,
+      "top_class": "gun",
+      "top_confidence": 0.3955,
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "gun",
+          "confidence": 0.3955,
+          "box_xyxy": [
+            43.9,
+            104.4,
+            62.9,
+            138.8
+          ]
+        }
+      ],
+      "visual_saved": "pred_gun_0040.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": false,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0031.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.674,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.674,
+          "box_xyxy": [
+            831.8,
+            634.5,
+            1048.9,
+            751.8
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0031.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0032.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.6555,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.6555,
+          "box_xyxy": [
+            871.1,
+            508.1,
+            946.1,
+            696.4
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0032.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0033.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.7488,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.7488,
+          "box_xyxy": [
+            571.3,
+            722.2,
+            800.2,
+            932.9
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0033.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0034.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.6474,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.6474,
+          "box_xyxy": [
+            875.0,
+            540.9,
+            920.3,
+            717.6
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0034.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0035.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.6643,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.6643,
+          "box_xyxy": [
+            617.9,
+            694.6,
+            854.7,
+            867.2
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0035.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0036.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.6274,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.6274,
+          "box_xyxy": [
+            893.3,
+            525.9,
+            956.7,
+            743.1
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0036.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0037.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.5533,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.5533,
+          "box_xyxy": [
+            1086.5,
+            709.5,
+            1297.0,
+            772.9
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0037.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0038.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.6407,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.6407,
+          "box_xyxy": [
+            913.8,
+            524.1,
+            968.8,
+            691.4
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0038.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0039.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.5886,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.5886,
+          "box_xyxy": [
+            1122.8,
+            772.4,
+            1249.4,
+            840.0
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0039.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": true,
+      "match_at_0_75": false
+    },
+    {
+      "image": "knife_0040.jpg",
+      "ground_truth_classes": [
+        "knife"
+      ],
+      "primary_ground_truth": "knife",
+      "detected_count": 1,
+      "top_class": "knife",
+      "top_confidence": 0.4743,
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "knife",
+          "confidence": 0.4743,
+          "box_xyxy": [
+            903.6,
+            509.4,
+            973.1,
+            734.2
+          ]
+        }
+      ],
+      "visual_saved": "pred_knife_0040.jpg",
+      "match_at_0_25": true,
+      "match_at_0_50": false,
+      "match_at_0_75": false
+    }
+  ]
+}
